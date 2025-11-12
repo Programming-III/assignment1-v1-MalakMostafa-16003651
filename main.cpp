@@ -63,7 +63,7 @@ using namespace std;
     Reptile::Reptile(string name,int age, bool isHungry,bool isVenomous):Animal(name,age,isHungry){
         this->isVenomous=isVenomous;
     }
-    Reptile:: void display(){
+    void Reptile:: display(){
         cout<<getName()<<"("<<"Age: "<<getAge()<<",";
         if(isVenomous){
          cout<<"venomous ";}
